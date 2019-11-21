@@ -4,7 +4,6 @@ body {
     background-size: cover;
 }
 header {
-    position: fixed;
     margin-top: 5px;
 }
 li a {
@@ -13,14 +12,28 @@ li a {
     margin-right: 20px;
 }
 li a:hover {
-    text-transform: lowercase;
-    background-color:  violet;
+    background-color:  yellow;
     transition-property: all;
     transition-duration: 0.5s;
-    transform: rotate(20deg); 
+    transform: rotate(10deg);
     font-size: 35px;   
 }
 .logo {
     margin-right: 150px;
     width: 50px;
+}
+.d-block {
+    width: 800px;
+    height: 600px;
+}
+.c-black {
+    color: black;
+    font-size: 35px;
+}
+.c-black:hover {
+    color: yellow;
+    background-color: black;
+    transition-property: all;
+    transition-duration: 0.5s;
+    font-size: 40px;
 }
