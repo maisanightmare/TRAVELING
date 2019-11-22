@@ -37,3 +37,32 @@ li a:hover {
     transition-duration: 0.5s;
     font-size: 40px;
 }
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; 
+}
+.card-text {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: yellow;
+    background-color: black;
+}
+.icons {
+    margin-right: 10px;
+}
+.title-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+.title-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
