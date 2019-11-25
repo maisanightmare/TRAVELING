@@ -20,7 +20,7 @@ li a:hover {
 }
 .logo {
     margin-right: 150px;
-    width: 50px;
+    width: 80px;
 }
 .d-block {
     width: 800px;
@@ -58,6 +58,7 @@ li a:hover {
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 10px;
+    color: black;
 
 }
 .title-3 {
@@ -67,12 +68,6 @@ li a:hover {
     font-size: 40px;
     margin-bottom: 50px;
     color: black;
-}
-.title-3:hover {
-    background-color: violet;
-    font-size: 35px;
-    transition-property: all;
-    transition-duration: 0.5s;
 }
 .box {
     width: 450px;
@@ -138,5 +133,21 @@ li a:hover {
 .stats {
     font-size: 20px;
     color: rgb(153, 0, 255);
-   
+}
+.nickname {
+    font-size: 25px;
+}
+.about {
+    width: 600px;
+    margin-top: 30px;
+}
+.about-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.ppl-say {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 20px;  
 }
