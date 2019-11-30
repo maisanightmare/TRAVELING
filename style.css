@@ -5,6 +5,7 @@ body {
 }
 header {
     margin-top: 5px;
+    
 }
 li a {
     color: black;
@@ -150,4 +151,48 @@ li a:hover {
     font-size: 40px;
     margin-top: 30px;
     margin-left: 20px;  
+}
+.photos {
+    width: 400px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width:1024px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .container-fluid {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .tours {
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .about-flex {
+        flex-wrap: wrap;
+    }
+    .title-1 {
+        justify-content: center;
+        align-items: center;
+    }
+    .title-3 {
+        justify-content: center;
+        align-items: center;
+    }
 }
