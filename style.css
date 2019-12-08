@@ -18,6 +18,7 @@ li a:hover {
     transition-duration: 0.5s;
     transform: rotate(10deg);
     font-size: 35px;   
+    box-shadow: 5px 5px 5px 5px black;
 }
 .logo {
     margin-right: 150px;
@@ -33,10 +34,11 @@ li a:hover {
 }
 .c-black:hover {
     color: violet;
-    background-color: black;
+    box-shadow: 5px 5px 5px 5px black;
     transition-property: all;
     transition-duration: 0.5s;
     font-size: 35px;
+ 
 }
 .flex {
     display: flex;
@@ -113,6 +115,7 @@ li a:hover {
     background-color: violet;
     transition-property: all;
     transition-duration: 0.5s;
+    box-shadow: 5px 5px 5px 5px black;
 }
 .box1 {
     width: 450px;
@@ -195,4 +198,19 @@ li a:hover {
         justify-content: center;
         align-items: center;
     }
+}
+.bg-cl {
+    background-color: violet;
+    border: 4px solid black;
+}
+.sign-in {
+    color: black;
+    font-size: 25px;
+}
+.sign-in:hover {
+    color: violet;
+    box-shadow: 5px 5px 5px 5px black;
+    font-size: 35px;
+    transition-property: all;
+    transition-duration: 0.5s;
 }
