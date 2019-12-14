@@ -2,10 +2,10 @@ body {
     background-color: whitesmoke;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Shadows Into Light', cursive;
 }
 header {
     margin-top: 5px;
-    
 }
 li a {
     color: black;
@@ -31,6 +31,8 @@ li a:hover {
 .c-black {
     color: black;
     font-size: 25px;
+    font-family: 'VT323', monospace;
+
 }
 .c-black:hover {
     color: violet;
@@ -50,6 +52,7 @@ li a:hover {
     font-size: 20px;
     color: violet;
     background-color: black;
+    font-family: 'Fredericka the Great', cursive;
 }
 .icons {
     margin-right: 10px;
@@ -87,6 +90,8 @@ li a:hover {
 .btn {
     color: black;
     font-size: 25px;
+    font-family: 'Fredericka the Great', cursive;
+
 }
 .btn:hover {
     color: violet;
@@ -108,6 +113,8 @@ li a:hover {
     font-size: 30px;
     color: violet;
     background-color: black;
+    font-family: 'Fredericka the Great', cursive;
+
 }
 .greece:hover {
     font-size: 25px;
