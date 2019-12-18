@@ -221,3 +221,9 @@ li a:hover {
     transition-property: all;
     transition-duration: 0.5s;
 }
+.animation-p:hover{
+    width: 600px;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transform: rotate(15deg);
+}
